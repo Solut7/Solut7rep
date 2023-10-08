@@ -1,0 +1,187 @@
+/*Верхняя строка(Главная, корзина, войти)*/
+#Upheader{ 
+  background-color: #1e1d1d;
+  height: 60px;
+  border: 1px solid rgb(214, 212, 212);
+  width: 1500px;
+  display: flex;
+  justify-content: flex-end;
+}
+#image-button1{
+  width: 82px;
+  height: 58px;
+  border: none;
+  background-image: url('corsina.png');
+  background-size: cover;
+}
+#image-button2{
+    width: 82px;
+    height: 58px;
+    border: none;
+    background-image: url('login.png');
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 45px;
+  }
+#To_first{
+    color: rgb(214, 212, 212);
+    margin-right: 1100px;
+    margin-top: 20px;
+}
+
+/*Верхняя строка(Картинка + логотип)*/
+#header{ 
+  background-color: #1e1d1d;
+  background-image: url("art1header.jpg");
+  height: 124px;
+  border: 1px solid rgb(214, 212, 212);
+}
+#logo_pos{
+  margin-left: 120px;
+}
+
+/*Верхняя строка(Название раздела)*/
+#header2{ 
+  background-color: #372929;
+  height: 56px;
+  width: 1500px;
+  border: 1px solid rgb(171, 121, 121);
+}
+#part_name{
+  color: rgb(82, 16, 16);
+  margin-top: 10px;
+  margin-left: 650px;
+  -webkit-text-stroke: 1px #B59B9B;
+}
+
+/*Сайдбар(Фильтры + поиск)*/
+#sidebar{
+    background-color: #750815;
+    float: left;
+    width: 260px;
+    height: 832px;
+    border: 1px solid rgb(214, 212, 212);
+}
+form{
+  margin-top: 30px;
+  margin-left: 15px;
+}
+#catalog{
+    margin-top: 100px;
+    margin-left: 60px;
+    color: rgb(214, 212, 212);
+}
+#menufilter{
+    margin-top: 10px;
+}
+li{
+    list-style-type: none;
+    padding-top: 5px;
+}
+#firm{
+    margin-top: 30px;
+    margin-left: 25px;
+    color: rgb(214, 212, 212);
+}
+label{
+  color: rgb(214, 212, 212);
+}
+
+/*Центр(Меню)*/
+#main{
+    background-color: #1e1d1d;
+    background-image: url("art1header.jpg");
+    background-blend-mode: color-dodge;
+    background-size: cover;
+    border: 1px solid rgb(214, 212, 212);
+    height: 1690px;
+    margin-left: 260px;
+    margin-top: 0px;
+}
+body {
+  background-color: #1E1D1D;
+}
+#main_menu{
+  display: grid;
+  grid-template-columns: 323px 323px 326px;
+  grid-template-rows: 327px 327px 330px;
+  gap: 30px;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+/*Центр(Карточки)*/
+.card{
+  width: 323px;
+  height: 327px;
+  border: none;
+  background-color: #96414b;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.card_text{
+  width: 323px;
+  height: 132px;
+  margin-left: 78px;
+}
+.card_text h3{
+  color:  rgb(214, 212, 212);
+}
+.card_text p{
+  color:  rgb(214, 212, 212);
+  margin-left: 35px;
+}
+#image-button3{
+    width: 323px;
+    height: 327px;
+    border: none;
+    background-image: url('buy1.png');
+    background-size: cover;
+  }
+#image-button6{
+    width: 323x;
+    height: 327px;
+    border: none;
+    background-image: url('buy4.png');
+    background-size: cover;
+  }
+  #image-button12{
+    width: 323px;
+    height: 327px;
+    border: none;
+    background-image: url('buy10.png');
+    background-size: cover;
+  }
+.image-button:hover {
+    opacity: 0.8;
+  }
+.image-button:active {
+    transform: scale(0.95);
+  }
+
+/*Подвал*/
+#footer{ 
+    background-color: #1e1d1d;
+    margin-left: 0px;
+    height: 400px;
+    border: 1px solid rgb(214, 212, 212);
+    border-top: 50px solid #372929;
+    display: flex;
+    width: 1500px;
+    justify-content: center;
+    background-image: url("art1header.jpg");
+    background-blend-mode: multiply;
+    
+}
+#footer_element{
+    padding-left: 120px;
+    padding-right: 120px;
+    color: rgb(214, 212, 212);
+}
+a{
+    color: rgb(214, 212, 212);
+}
+
+  
