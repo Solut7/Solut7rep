@@ -38,38 +38,6 @@
 #logo_pos{
   margin-left: 120px;
 }
-/*Сайдбар(Фильтры + поиск)*/
-#sidebar{
-    background-color: #750815;
-    float: left;
-    width: 260px;
-    height: 832px;
-    border: 1px solid rgb(214, 212, 212);
-}
-#catalog{
-  margin-top: 100px;
-  margin-left: 60px;
-  color: rgb(214, 212, 212);
-}
-#menufilter{
-  margin-top: 10px;
-}
-#firm{
-  margin-top: 30px;
-  margin-left: 25px;
-  color: rgb(214, 212, 212);
-}
-form{
-  margin-top: 30px;
-  margin-left: 15px;
-}
-li{
-  list-style-type: none;
-  padding-top: 5px;
-}
-label{
-  color: rgb(214, 212, 212);
-}
 /*Подвал*/
 #footer{ 
     background-color: #1e1d1d;
