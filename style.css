@@ -86,12 +86,6 @@ body {
   background-image: url('ssd.png');
   background-size: cover;
 }
-.image-button:hover {
-  opacity: 0.8;
-}
-.image-button:active {
-  transform: scale(0.95);
-}
 #main_menu{
   display: grid;
   grid-template-columns: 326px 326px 326px;

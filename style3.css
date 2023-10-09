@@ -1,5 +1,4 @@
 
-
 /*Центр*/
 #card-image{
     float: left;
@@ -39,12 +38,6 @@ label{
     background-size: cover;
     margin-top: 80px;
     margin-left: 150px;
-  }
-.image-button:hover {
-    opacity: 0.8;
-  }
-.image-button:active {
-    transform: scale(0.95);
   }
 table{
   color:  rgb(214, 212, 212);

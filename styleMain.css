@@ -38,6 +38,12 @@
 #logo_pos{
   margin-left: 120px;
 }
+.image-button:hover {
+  opacity: 0.8;
+}
+.image-button:active {
+  transform: scale(0.95);
+}
 /*Подвал*/
 #footer{ 
     background-color: #1e1d1d;

@@ -43,13 +43,6 @@ body {
       margin-top: 100px;
       margin-left: 600px;
     }
-.image-button:hover {
-      opacity: 0.8;
-    }
-.image-button:active {
-      transform: scale(0.95);
-    }
-  
 label{
       color: rgb(214, 212, 212);
   }
