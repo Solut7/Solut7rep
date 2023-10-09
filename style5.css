@@ -1,0 +1,76 @@
+
+/*Центр*/
+#main{
+    background-color: #1e1d1d;
+    background-image: url("art1header.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    border: 1px solid rgb(214, 212, 212);
+    width: 1500px;
+    height: 832px;
+    margin-top: 0px;
+}
+body {
+    background-color: #1E1D1D;
+    }
+table{
+      color:  rgb(214, 212, 212);
+      background-color: #2d2b2b;
+      background-blend-mode: screen;
+      margin-top: 20px;
+      margin-left: 470px;
+      margin-bottom: 20px;
+      border: 1px solid #777676;
+      border-collapse: collapse;
+      width: 524px;
+      height: 314px;
+    }
+th,td{
+      border: 1px solid #777676;
+    }
+#lab_price{
+      margin-left: 470px;
+      font-size: 16px;
+    }
+#to_previus{
+     margin-left: 150px;
+    }
+#catalog{
+        margin-top: 150px;
+        margin-left: 675px;
+        color: rgb(214, 212, 212);
+    }
+#image-button3{
+      width: 212px;
+      height: 43px;
+      border: none;
+      background-image: url('order.jpg');
+      background-color: #5E1C1C;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-top: 100px;
+      margin-left: 0px;
+    }
+#image-button4{
+      width: 212px;
+      height: 43px;
+      border: none;
+      background-image: url('clean.jpg');
+      background-color: #5E1C1C;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-top: 100px;
+      margin-left: 100px;
+    }
+label{
+      color: rgb(214, 212, 212);
+  }
+#order{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+  
