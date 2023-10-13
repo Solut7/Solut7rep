@@ -23,10 +23,15 @@
     margin-left: 10px;
     margin-right: 45px;
   }
-  #To_first{
+#To_first{
     color: rgb(214, 212, 212);
     margin-right: 1100px;
     margin-top: 20px;
+}
+#To_first:hover{
+  color: rgb(95, 97, 229);
+  margin-right: 1100px;
+  margin-top: 20px;
 }
 /*Верхняя строка(Картинка + логотип)*/
 #header{ 
@@ -37,12 +42,37 @@
 }
 #logo_pos{
   margin-left: 120px;
+  mix-blend-mode: luminosity;
+  animation-duration: 10s;
+  animation-name: changable;
+  -moz-animation-iteration-count: infinite;
+}
+@keyframes changable{
+  from {
+    mix-blend-mode: luminosity;
+  }
+  to {
+    mix-blend-mode: screen;
+  }
 }
 .image-button:hover {
   opacity: 0.8;
 }
 .image-button:active {
   transform: scale(0.95);
+}
+.image-button{
+  animation-duration: 3s;
+  animation-name: appear;
+  -moz-animation-iteration-count: 1;
+}
+@keyframes appear{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1.0;
+  }
 }
 /*Подвал*/
 #footer{ 

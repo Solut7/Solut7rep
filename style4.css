@@ -33,7 +33,23 @@ body {
         margin-top: 150px;
         margin-left: 675px;
         color: rgb(214, 212, 212);
+        animation-duration: 3s;
+        animation-name: appear;
+        -moz-animation-iteration-count: 1;
     }
+form{
+    animation-duration: 3s;
+    animation-name: appear;
+    -moz-animation-iteration-count: 1;
+}
+@keyframes appear{
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1.0;
+        }
+ }
 #image-button3{
       width: 212px;
       height: 43px;

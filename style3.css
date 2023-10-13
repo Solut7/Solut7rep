@@ -8,6 +8,9 @@
     margin-top: 100px;
     margin-left: 100px;
     background-image: url("b1.png");
+    animation-duration: 3s;
+    animation-name: slideimg;
+    -moz-animation-iteration-count: 1;
 }
 #main{
     background-color: #1e1d1d;
@@ -50,6 +53,31 @@ table{
   border-collapse: collapse;
   width: 524px;
   height: 314px;
+  animation-duration: 3s;
+  animation-name: slide;
+  -moz-animation-iteration-count: 1;
+}
+@keyframes slide{
+  from {
+    margin-left: 950px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  to {
+    margin-left: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@keyframes slideimg{
+  from {
+    margin-left: 0px;
+    margin-top: 100px;
+  }
+  to {
+    margin-left: 100px;
+    margin-top: 100px;
+  }
 }
 th,td{
   border: 1px solid #777676;
@@ -61,3 +89,6 @@ th,td{
 #to_previus{
  margin-left: 150px;
 }
+#to_previus:hover{
+  color: rgb(95, 97, 229);
+ }
