@@ -12,7 +12,6 @@
   margin-left: 650px;
   -webkit-text-stroke: 1px #B59B9B;
 }
-
 /*Сайдбар(Фильтры + поиск)*/
 #sidebar{
     background-color: #750815;
@@ -45,7 +44,6 @@ li{
 label{
   color: rgb(214, 212, 212);
 }
-
 /*Центр(Меню)*/
 #main{
     background-color: #1e1d1d;
@@ -68,7 +66,6 @@ body {
   margin-top: 50px;
   margin-left: 80px;
 }
-
 /*Центр(Карточки)*/
 .card{
   width: 323px;
